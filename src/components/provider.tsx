@@ -19,7 +19,7 @@ export function Provider({ children }: { children: any }) {
 	const rootClient = generateApolloClient({
 		path: GRAPHQL_PATH,
 		ssl: GRAPHQL_SSL,
-		token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWFsbG93ZWQtcm9sZXMiOlsiYWRtaW4iXSwieC1oYXN1cmEtZGVmYXVsdC1yb2xlIjoiYWRtaW4iLCJ4LWhhc3VyYS11c2VyLWlkIjoiMzgwIn0sImlhdCI6MTY5MDAzMTcwOX0.yQeqO_toByCmY9rlr0dbMyRiYrp0dw2c4S2BRHyY0is',
+		token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWFsbG93ZWQtcm9sZXMiOlsiYWRtaW4iXSwieC1oYXN1cmEtZGVmYXVsdC1yb2xlIjoiYWRtaW4iLCJ4LWhhc3VyYS11c2VyLWlkIjoiMzgwIn0sImlhdCI6MTY5MjUyMTI3MH0.hjJxdplU6YkCFT3yhnMMYwQlpRxIek0G0JKrXy2Dy-k",
 	})
 
 	return (
@@ -32,7 +32,7 @@ export function Provider({ children }: { children: any }) {
 							path: GRAPHQL_PATH,
 							ssl: GRAPHQL_SSL,
 							ws: !!process?.browser,
-							token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWFsbG93ZWQtcm9sZXMiOlsiYWRtaW4iXSwieC1oYXN1cmEtZGVmYXVsdC1yb2xlIjoiYWRtaW4iLCJ4LWhhc3VyYS11c2VyLWlkIjoiMzgwIn0sImlhdCI6MTY5MDAzMTcwOX0.yQeqO_toByCmY9rlr0dbMyRiYrp0dw2c4S2BRHyY0is',
+							token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWFsbG93ZWQtcm9sZXMiOlsiYWRtaW4iXSwieC1oYXN1cmEtZGVmYXVsdC1yb2xlIjoiYWRtaW4iLCJ4LWhhc3VyYS11c2VyLWlkIjoiMzgwIn0sImlhdCI6MTY5MjUyMTI3MH0.hjJxdplU6YkCFT3yhnMMYwQlpRxIek0G0JKrXy2Dy-k"
 						}}
 					>
 						<ProviderConnected>
